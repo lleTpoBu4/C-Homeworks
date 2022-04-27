@@ -1,11 +1,9 @@
 ﻿//Ругается, но работает. Как MVP сойдёт.
 //Думаю, неплохо для первого кода =)
 Console.WriteLine("Введите любое число: ");
-string first = Console.ReadLine();
+double a = Double.Parse(Console.ReadLine());
 Console.WriteLine("Введите второе любое число: ");
-string second = Console.ReadLine();
-double a = Double.Parse(first);
-double b = Double.Parse(second);
+double b = Double.Parse(Console.ReadLine());
 string max = "Максимальное число";
 string min = "Минимальное число";
 if (a > b)
