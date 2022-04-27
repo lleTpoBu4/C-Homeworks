@@ -12,4 +12,5 @@ bld/
 [Oo]bj/
 [Ll]og/
 *.csproj
-*.vccode
+*.vscode
+*.gitignore
